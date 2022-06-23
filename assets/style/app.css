@@ -4,7 +4,7 @@
 @font-face {
   font-family: 'Graphik LC Web';
   src: url('../fonts/GraphikLCWeb-Regular.woff2') format('woff2'),
-      url('../fonts/GraphikLCWeb-Regular.woff') format('woff');
+    url('../fonts/GraphikLCWeb-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -13,7 +13,7 @@
 @font-face {
   font-family: 'Graphik LC Web';
   src: url('../fonts/GraphikLCWeb-Regular.woff2') format('woff2'),
-      url('../fonts/GraphikLCWeb-Regular.woff') format('woff');
+    url('../fonts/GraphikLCWeb-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -22,7 +22,7 @@
 @font-face {
   font-family: 'HW Pano Trial';
   src: url('../fonts/HWPanoTrial-Light.woff2') format('woff2'),
-      url('../fonts/HWPanoTrial-Light.woff') format('woff');
+    url('../fonts/HWPanoTrial-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -31,7 +31,7 @@
 @font-face {
   font-family: 'HW Pano Trial';
   src: url('../fonts/HWPanoTrial-Regular.woff2') format('woff2'),
-      url('../fonts/HWPanoTrial-Regular.woff') format('woff');
+    url('../fonts/HWPanoTrial-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -40,7 +40,7 @@
 @font-face {
   font-family: 'HW Pano Trial';
   src: url('../fonts/HWPanoTrial-LightItalic.woff2') format('woff2'),
-      url('../fonts/HWPanoTrial-LightItalic.woff') format('woff');
+    url('../fonts/HWPanoTrial-LightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -49,7 +49,7 @@
 @font-face {
   font-family: 'Pano Ita';
   src: url('../fonts/HWPanoTrial-BoldItalic.woff2') format('woff2'),
-      url('../fonts/HWPanoTrial-BoldItalic.woff') format('woff');
+    url('../fonts/HWPanoTrial-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -58,7 +58,7 @@
 @font-face {
   font-family: 'Pano Light Ita';
   src: url('../fonts/HWPanoTrial-LightItalic.woff2') format('woff2'),
-      url('../fonts/HWPanoTrial-LightItalic.woff') format('woff');
+    url('../fonts/HWPanoTrial-LightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -67,7 +67,7 @@
 @font-face {
   font-family: 'HW Pano Trial';
   src: url('../fonts/HWPanoTrial-RegularItalic.woff2') format('woff2'),
-      url('../fonts/HWPanoTrial-RegularItalic.woff') format('woff');
+    url('../fonts/HWPanoTrial-RegularItalic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -76,7 +76,7 @@
 @font-face {
   font-family: 'HW Pano Trial';
   src: url('../fonts/HWPanoTrial-BoldItalic.woff2') format('woff2'),
-      url('../fonts/HWPanoTrial-BoldItalic.woff') format('woff');
+    url('../fonts/HWPanoTrial-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -85,7 +85,7 @@
 @font-face {
   font-family: 'Pano Trial';
   src: url('../fonts/HWPanoTrial-Bold.woff2') format('woff2'),
-      url('../fonts/HWPanoTrial-Bold.woff') format('woff');
+    url('../fonts/HWPanoTrial-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -94,7 +94,7 @@
 @font-face {
   font-family: 'Pano Trial';
   src: url('../fonts/HWPanoTrial-Regular.woff2') format('woff2'),
-      url('../fonts/HWPanoTrial-Regular.woff') format('woff');
+    url('../fonts/HWPanoTrial-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -103,7 +103,7 @@
 @font-face {
   font-family: 'Pano Trial';
   src: url('../fonts/HWPanoTrial-Light.woff2') format('woff2'),
-      url('../fonts/HWPanoTrial-Light.woff') format('woff');
+    url('../fonts/HWPanoTrial-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -112,7 +112,7 @@
 @font-face {
   font-family: 'Pano Ita';
   src: url('../fonts/HWPanoTrial-RegularItalic.woff2') format('woff2'),
-      url('../fonts/HWPanoTrial-RegularItalic.woff') format('woff');
+    url('../fonts/HWPanoTrial-RegularItalic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -121,7 +121,7 @@
 @font-face {
   font-family: 'HW Pano Trial';
   src: url('../fonts/HWPanoTrial-Bold.woff2') format('woff2'),
-      url('../fonts/HWPanoTrial-Bold.woff') format('woff');
+    url('../fonts/HWPanoTrial-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -235,59 +235,118 @@ body {
 }
 
 .btn-white:is(:hover, :focus) {
-  --white : hsl(0,0%,60%);
+  --white: hsl(0, 0%, 60%);
   background-color: var(--white);
 }
 
 /*Navigation */
 
-.main-nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-block : 3.2rem;
-}
-
-.nav {
-  margin-left: auto;
-}
-
-.nav-list__link {
-  text-transform: uppercase;
-  color : var(--white);
-}
-
-.nav-list__item {
-  padding: .4rem 2rem ;
-}
-
 .logo {
-  color :var(--white);
-  font-family:  var(--ff-pano);
+  color: var(--white);
+  font-family: var(--ff-pano);
   font-weight: 300;
   font-size: 1.5rem;
   text-transform: uppercase;
   white-space: nowrap;
+  text-align: center;
+  width: 100%;
 }
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-block: 3.2rem;
+}
+
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.nav-list__item {
+  padding: .4rem 2rem;
+}
+
+.nav-list__link {
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+@media (min-width : 664px) {
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    flex-direction: unset;
+  }
+
+}
+
+@media (min-width : 920px) {
+
+  .logo {
+    width: unset;
+  }
+
+  .nav {
+    margin-left: auto;
+    margin-right: unset;
+  }
+
+  .nav-list {
+    padding-top: unset;
+  }
+
+}
+
+
 
 /* Hero */
 
-.hero {
-  position: relative;
-  padding-block : 6.5rem
+
+@media (min-width : 920px) {
+
+  .hero {
+    padding-block: 6.5rem;
+    display: grid;
+    grid-template-columns: repeat(12 1fr);
+  }
+}
+
+.col-img {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+
+}
+
+.col-content {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  align-self: center;
 }
 
 .hero-title {
   font-family: var(--ff-pano);
-  color : var(--white);
+  color: var(--white);
   font-size: var(--fs-1);
   font-weight: 300;
   text-align: left;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
   margin-right: 1rem;
+  position: relative;
 }
 
 .hero-title::before {
@@ -297,22 +356,23 @@ body {
   right: -20%;
   top: -57%;
   bottom: 0%;
-  width: 100%;
+  width: 40rem;
   z-index: -1;
 
   background: url("../img/hand-draw.svg") center center;
   background-repeat: no-repeat;
   background-size: 70%;
+  overflow-x: hidden;
 }
 
-.hero-img{
-  max-width:40rem;
+.hero-img {
+  max-width: 40rem;
   position: relative;
   margin-left: 2rem;
 }
 
 .hero-img::after {
-  content:"";
+  content: "";
   position: absolute;
   top: -2rem;
   left: -2rem;
@@ -355,14 +415,14 @@ body {
 .scroll-link__text {
   margin-left: 2rem;
   text-transform: uppercase;
-  color : var(--white);
+  color: var(--white);
   font-size: .9rem;
   transition: transform 300ms ease-in-out;
 }
 
 .social-list {
   display: flex;
-  gap : 3rem;
+  gap: 3rem;
 }
 
 .social-list__item {
